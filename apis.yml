@@ -1,7 +1,29 @@
 aid: dcb-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dcb-technologies.png
 name: DCB Technologies
-description: DCB Technologies is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'DCB Technologies is a company name that appears on the Andreessen Horowitz
+  (a16z) published investment list, and was added to the API Evangelist network as
+  a portfolio-derived stub for enrichment. As of the 2026-07-20 enrichment pass no
+  public company website, developer portal, documentation, API reference, or machine-readable
+  API artifact could be attributed to the a16z-listed entity: the a16z investment list
+  publishes the name with no accompanying URL or sector, and open-web search surfaces
+  only unrelated same-name businesses (a French IT services firm at dcb-technologies.fr,
+  plus several unaffiliated US LLCs registered in Florida, Delaware, Wisconsin, New
+  Jersey and Maryland). No base host was therefore available to probe for /.well-known/
+  discovery documents, domain security records, package registries, or specifications.
+  This profile is retained as an identity-only lead and should be revisited when a
+  canonical domain for the a16z-backed entity is published.'
 url: https://raw.githubusercontent.com/api-evangelist/dcb-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,24 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Venture Backed
+- a16z
+- Portfolio Lead
+- Unverified
+- No API Surface
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: 'No canonical domain identified for the a16z-listed DCB Technologies; no host
+    was available to probe, so no artifacts could be searched, generated, or derived.'
